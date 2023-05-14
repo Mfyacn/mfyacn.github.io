@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>沐风一岸</title>
+    <link>https://blog.mfya.cn/</link>
+    <description>Recent content on 沐风一岸</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 14 May 2023 23:05:09 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Hugo搭建纯静态博客~</title>
+      <link>https://blog.mfya.cn/posts/hugo/</link>
+      <pubDate>Sun, 14 May 2023 23:05:09 +0800</pubDate>
+      
+      <guid>https://blog.mfya.cn/posts/hugo/</guid>
+      <description>第一次体验静态博客，投入Hugo怀抱！</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

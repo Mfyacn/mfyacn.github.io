@@ -6,16 +6,6 @@
     <description>Recent content in 文章 on 沐风一岸</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 14 May 2023 23:05:09 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>使用Hugo搭建纯静态博客~</title>
-      <link>https://blog.mfya.cn/posts/hugo/</link>
-      <pubDate>Sun, 14 May 2023 23:05:09 +0800</pubDate>
-      
-      <guid>https://blog.mfya.cn/posts/hugo/</guid>
-      <description>第一次体验静态博客，投入Hugo怀抱！</description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
+    <lastBuildDate>Mon, 15 May 2023 11:40:51 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

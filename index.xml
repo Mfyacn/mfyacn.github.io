@@ -6,13 +6,23 @@
     <description>Recent content on 沐风一岸</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 14 May 2023 23:05:09 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 May 2023 11:40:51 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>那些让我记忆深刻的美食</title>
+      <link>https://blog.mfya.cn/posts/life/myfoods/</link>
+      <pubDate>Mon, 15 May 2023 11:40:51 +0800</pubDate>
+      
+      <guid>https://blog.mfya.cn/posts/life/myfoods/</guid>
+      <description>记录我最喜欢的美食</description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>使用Hugo搭建纯静态博客~</title>
-      <link>https://blog.mfya.cn/posts/hugo/</link>
+      <link>https://blog.mfya.cn/posts/play/hugo/</link>
       <pubDate>Sun, 14 May 2023 23:05:09 +0800</pubDate>
       
-      <guid>https://blog.mfya.cn/posts/hugo/</guid>
+      <guid>https://blog.mfya.cn/posts/play/hugo/</guid>
       <description>第一次体验静态博客，投入Hugo怀抱！</description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

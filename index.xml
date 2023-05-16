@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 14 May 2023 23:05:09 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用Github Actions自动部署Hugo博客</title>
-      <link>https://blog.mfya.cn/posts/webflows-hugo.html</link>
+      <link>https://blog.mfya.cn/posts/webflows-hugo/</link>
       <pubDate>Sun, 14 May 2023 23:05:09 +0800</pubDate>
       
-      <guid>https://blog.mfya.cn/posts/webflows-hugo.html</guid>
+      <guid>https://blog.mfya.cn/posts/webflows-hugo/</guid>
       <description>利用Github Actions自动部署Hugo博客到Github Pages和虚拟主机。</description>
       <content:encoded><![CDATA[<p><strong>注意：本文仅记录使用Github Actions自动部署Hugo到Github Pages和虚拟主机上，不包含Hugo博客搭建（Hugo博客搭建的教程在网络上已经很多了）。</strong></p>
 <h3 id="一准备工作">一、准备工作</h3>

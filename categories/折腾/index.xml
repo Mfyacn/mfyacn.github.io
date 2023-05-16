@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>折腾 on 沐风一岸</title>
-    <link>https://blog.mfya.cn/categories/%E6%8A%98%E8%85%BE/</link>
+    <link>https://blog.mfya.cn/categories/%E6%8A%98%E8%85%BE.html</link>
     <description>Recent content in 折腾 on 沐风一岸</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 14 May 2023 23:05:09 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/categories/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用Github Actions自动部署Hugo博客</title>
-      <link>https://blog.mfya.cn/posts/play/hugo-workflows/</link>
+      <link>https://blog.mfya.cn/posts/webflows-hugo.html</link>
       <pubDate>Sun, 14 May 2023 23:05:09 +0800</pubDate>
       
-      <guid>https://blog.mfya.cn/posts/play/hugo-workflows/</guid>
+      <guid>https://blog.mfya.cn/posts/webflows-hugo.html</guid>
       <description>利用Github Actions自动部署Hugo博客到Github Pages和虚拟主机。</description>
       <content:encoded><![CDATA[<p><strong>注意：本文仅记录使用Github Actions自动部署Hugo到Github Pages和虚拟主机上，不包含Hugo博客搭建（Hugo博客搭建的教程在网络上已经很多了）。</strong></p>
 <h3 id="一准备工作">一、准备工作</h3>

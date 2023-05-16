@@ -125,7 +125,7 @@
 </span></span><span class="line"><span class="cl">        runs-on: ubuntu-latest
 </span></span><span class="line"><span class="cl">        steps:
 </span></span><span class="line"><span class="cl">            - name: Checkout
-</span></span><span class="line"><span class="cl">              uses: actions/checkout@v2
+</span></span><span class="line"><span class="cl">              uses: actions/checkout@v3
 </span></span><span class="line"><span class="cl">              with:
 </span></span><span class="line"><span class="cl">                  submodules: true
 </span></span><span class="line"><span class="cl">                  fetch-depth: 0
@@ -150,7 +150,7 @@
 </span></span><span class="line"><span class="cl">                  #cname: blog.mfya.cn #如果你打算使用自己的域名的话先在https://github.com/settings/pages添加并验证域名后去掉cname前面的#并在冒号后填写你的域名。
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">            - name: Deploy Hugo to FTP
-</span></span><span class="line"><span class="cl">              uses: SamKirkland/FTP-Deploy-Action@4.3.0
+</span></span><span class="line"><span class="cl">              uses: SamKirkland/FTP-Deploy-Action@v4.3.4
 </span></span><span class="line"><span class="cl">              with:
 </span></span><span class="line"><span class="cl">                    server: ${{ secrets.ftp_host }}
 </span></span><span class="line"><span class="cl">                    username: ${{ secrets.ftp_username }}

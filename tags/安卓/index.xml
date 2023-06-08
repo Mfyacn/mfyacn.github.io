@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>安卓 on 沐风一岸</title>
+    <link>https://blog.mfya.cn/tags/%E5%AE%89%E5%8D%93/</link>
+    <description>Recent content in 安卓 on 沐风一岸</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 08 Jun 2023 22:43:29 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/tags/%E5%AE%89%E5%8D%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>移动云手机获取ROOT权限</title>
+      <link>https://blog.mfya.cn/posts/cloudphone/</link>
+      <pubDate>Thu, 08 Jun 2023 22:43:29 +0800</pubDate>
+      
+      <guid>https://blog.mfya.cn/posts/cloudphone/</guid>
+      <description>为移动云手机解锁ROOT，实现更多姿势~</description>
+      <content:encoded><![CDATA[<p><strong>2023年6月9日12:00移动云手机开始维护，只能改日再写了，睡觉！</strong></p>
+<h1 id="一必备软件">一、必备软件</h1>
+<h1 id="二重启后取消root">二、重启后取消ROOT</h1>
+<h1 id="三重启后保留root">三、重启后保留ROOT</h1>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

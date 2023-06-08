@@ -6,7 +6,21 @@
     <description>Recent content in 文章 on 沐风一岸</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 28 May 2023 21:13:23 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 22:43:29 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>移动云手机获取ROOT权限</title>
+      <link>https://blog.mfya.cn/posts/cloudphone/</link>
+      <pubDate>Thu, 08 Jun 2023 22:43:29 +0800</pubDate>
+      
+      <guid>https://blog.mfya.cn/posts/cloudphone/</guid>
+      <description>为移动云手机解锁ROOT，实现更多姿势~</description>
+      <content:encoded><![CDATA[<p><strong>2023年6月9日12:00移动云手机开始维护，只能改日再写了，睡觉！</strong></p>
+<h1 id="一必备软件">一、必备软件</h1>
+<h1 id="二重启后取消root">二、重启后取消ROOT</h1>
+<h1 id="三重启后保留root">三、重启后保留ROOT</h1>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>记录一些水果的自然成熟时间</title>
       <link>https://blog.mfya.cn/posts/fruits/</link>

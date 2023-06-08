@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>沐风一岸</title>
+    <link>https://blog.mfya.cn/</link>
+    <description>Recent content on 沐风一岸</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 08 Jun 2023 22:43:29 +0800</lastBuildDate><atom:link href="https://blog.mfya.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>移动云手机获取ROOT权限</title>
+      <link>https://blog.mfya.cn/posts/cloudphone/</link>
+      <pubDate>Thu, 08 Jun 2023 22:43:29 +0800</pubDate>
+      
+      <guid>https://blog.mfya.cn/posts/cloudphone/</guid>
+      <description>为移动云手机解锁ROOT，实现更多姿势~</description>
+      <content:encoded><![CDATA[<p>移动云手机</p>
+<h3 id="一必备软件">一、必备软件</h3>
+<p>1.移动云手机(网页版/APP版)
+2.MT管理器
+3.Devcheck</p>
+<h3 id="二重启后取消root">二、重启后取消ROOT</h3>
+<h3 id="三重启后保留root">三、重启后保留ROOT</h3>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>记录一些水果的自然成熟时间</title>
+      <link>https://blog.mfya.cn/posts/fruits/</link>
+      <pubDate>Sun, 28 May 2023 21:13:23 +0800</pubDate>
+      
+      <guid>https://blog.mfya.cn/posts/fruits/</guid>
+      <description>当季水果最好了！便宜又好吃~</description>
+      <content:encoded><![CDATA[<p><font size="5" color="#dd0000"><strong><center>内容转载自淘宝时令日历！</center></strong></font></br>
+<strong><center>作为一个吃货，水果是必吃不可的，但是现在水果是真的贵，于是记录好每个月的应季水果就成了省钱的好办法，当季水果最好了！便宜又好吃~👍</center></strong></p>
+<h1 id="一月">一月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg2.jpg" alt="一月"  />
+</p>
+<h1 id="二月">二月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg3.jpg" alt="二月"  />
+</p>
+<h1 id="三月">三月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg4.jpg" alt="三月"  />
+</p>
+<h1 id="四月">四月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg5.jpg" alt="四月"  />
+</p>
+<h1 id="五月">五月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg6.jpg" alt="五月"  />
+</p>
+<h1 id="六月">六月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg7.jpg" alt="六月"  />
+</p>
+<h1 id="七月">七月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg8.jpg" alt="七月"  />
+</p>
+<h1 id="八月">八月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg9.jpg" alt="八月"  />
+</p>
+<h1 id="九月">九月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg10.jpg" alt="九月"  />
+</p>
+<h1 id="十月">十月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg11.jpg" alt="十月"  />
+</p>
+<h1 id="十一月">十一月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg12.jpg" alt="十一月"  />
+</p>
+<h1 id="十二月">十二月</h1>
+<p><img loading="lazy" src="/assets/img/2/sg13.jpg" alt="十二月"  />
+</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>利用Github Actions自动部署Hugo博客</title>
+      <link>https://blog.mfya.cn/posts/webflows-hugo/</link>
+      <pubDate>Sun, 14 May 2023 23:05:09 +0800</pubDate>
+      
+      <guid>https://blog.mfya.cn/posts/webflows-hugo/</guid>
+      <description>解放双手，上传文章自动生成静态文件上传到GIthub Pages和虚拟主机。</description>
+      <content:encoded><![CDATA[<p><strong>注意：本文仅记录使用Github Actions自动部署Hugo到Github Pages和虚拟主机上，不包含Hugo博客搭建（Hugo博客搭建的教程在网络上已经很多了）。</strong></p>
+<h3 id="一准备工作">一、准备工作</h3>
+<p>1.准备好两个Github库，分别为Hugo仓库(私有)和Github Pages仓库(公共)，Github Pages仓库创建需要以 *<strong>.github.io</strong> 命名(*为你的Github用户名)，如下图。
+<img loading="lazy" src="/assets/img/1/wh1.png" alt="仓库"  />
+</p>
+<p>2.在 GitHub 账户下 <strong>Setting &gt; Developer setting &gt; Personal access tokens</strong> 下创建一个 Token，过期时间选<strong>No expiration</strong>，权限勾选<strong>repo</strong>和<strong>workflow</strong>，如下图。<img loading="lazy" src="/assets/img/1/wh2.png" alt="Tocken"  />
+</p>
+<p>3.将本地博客文件Push到博客文件仓库，之后在Hugo仓库的 <strong>Settings &gt; Secrets and variables &gt; Actions</strong> 内点击<strong>New repository secret</strong>，依据下表填写。</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Secret</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PERSONAL_TOKEN</td>
+<td>填写Github Token</td>
+</tr>
+<tr>
+<td>FTP_HOST</td>
+<td>填写虚拟主机的IP/域名</td>
+</tr>
+<tr>
+<td>FTP_USERNAME</td>
+<td>填写虚拟主机FTP用户名</td>
+</tr>
+<tr>
+<td>FTP_PASSWORD</td>
+<td>填写虚拟主机FTP密码</td>
+</tr>
+<tr>
+<td>FTP_PORT</td>
+<td>填写虚拟主机FTP端口</td>
+</tr>
+</tbody>
+</table>
+<p>填写后如下图。
+<img loading="lazy" src="/assets/img/1/wh3.png" alt="Secret"  />
+</p>
+<h3 id="二部署github-actions">二、部署Github Actions</h3>
+<p>4.在Hugo仓库内创建目录 <strong>.github/workflows</strong> ，在该目录内创建 <strong>deploy.yml</strong>文件，如下图。
+<img loading="lazy" src="/assets/img/1/wh4.png" alt="deploy"  />
+</p>
+<p>5.在 <strong>deploy.yml</strong> 文件内填写如下代码并根据提示修改。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">name: deploy
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">on:
+</span></span><span class="line"><span class="cl">    push:
+</span></span><span class="line"><span class="cl">    workflow_dispatch:
+</span></span><span class="line"><span class="cl">    schedule:
+</span></span><span class="line"><span class="cl">        # Runs everyday at 8:00 AM
+</span></span><span class="line"><span class="cl">        - cron: &#34;0 0 * * *&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">jobs:
+</span></span><span class="line"><span class="cl">    build:
+</span></span><span class="line"><span class="cl">        runs-on: ubuntu-latest
+</span></span><span class="line"><span class="cl">        steps:
+</span></span><span class="line"><span class="cl">            - name: Checkout
+</span></span><span class="line"><span class="cl">              uses: actions/checkout@v3
+</span></span><span class="line"><span class="cl">              with:
+</span></span><span class="line"><span class="cl">                  submodules: true
+</span></span><span class="line"><span class="cl">                  fetch-depth: 0
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            - name: Setup Hugo
+</span></span><span class="line"><span class="cl">              uses: peaceiris/actions-hugo@v2
+</span></span><span class="line"><span class="cl">              with:
+</span></span><span class="line"><span class="cl">                  hugo-version: &#34;latest&#34;
+</span></span><span class="line"><span class="cl">                  extended: true
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            - name: Build Web
+</span></span><span class="line"><span class="cl">              run: hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            - name: Deploy Hugo to Github Pages
+</span></span><span class="line"><span class="cl">              uses: peaceiris/actions-gh-pages@v3
+</span></span><span class="line"><span class="cl">              with:
+</span></span><span class="line"><span class="cl">                  PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+</span></span><span class="line"><span class="cl">                  EXTERNAL_REPOSITORY: mfyacn/mfyacn.github.io #替换为你的Github Pages仓库地址。
+</span></span><span class="line"><span class="cl">                  PUBLISH_BRANCH: master 
+</span></span><span class="line"><span class="cl">                  PUBLISH_DIR: ./public
+</span></span><span class="line"><span class="cl">                  commit_message: ${{ github.event.head_commit.message }}
+</span></span><span class="line"><span class="cl">                  #cname: blog.mfya.cn #如果你打算使用自己的域名的话先在https://github.com/settings/pages添加并验证域名后去掉cname前面的#并在冒号后填写你的域名。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            - name: Deploy Hugo to FTP
+</span></span><span class="line"><span class="cl">              uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+</span></span><span class="line"><span class="cl">              with:
+</span></span><span class="line"><span class="cl">                    server: ${{ secrets.ftp_host }}
+</span></span><span class="line"><span class="cl">                    username: ${{ secrets.ftp_username }}
+</span></span><span class="line"><span class="cl">                    password: ${{ secrets.ftp_password }}
+</span></span><span class="line"><span class="cl">                    port: ${{ secrets.ftp_port }}
+</span></span><span class="line"><span class="cl">                    local-dir: ./public/
+</span></span><span class="line"><span class="cl">                    server-dir: WEB/ #填写你的虚拟主机内网站文件目录，如/wwwroot
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="三部署结果">三、部署结果</h3>
+<p>6.修改完成 <strong>deploy.yml</strong> 后，Github Actions会自动运行并将Hugo生成在Public文件夹下的静态文件上传到Github Pages和虚拟主机内，如下图。
+<img loading="lazy" src="/assets/img/1/wh5.png" alt="workflow"  />
+</p>
+<p>至此，利用Github Actions自动部署Hugo博客到Github Pages和虚拟主机就完成了！</p>
+]]></content:encoded>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

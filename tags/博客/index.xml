@@ -17,9 +17,9 @@
       <content:encoded><![CDATA[<p><strong>注意：本文仅记录使用Github Actions自动部署Hugo到Github Pages和虚拟主机上，不包含Hugo博客搭建（Hugo博客搭建的教程在网络上已经很多了）。</strong></p>
 <h3 id="一准备工作">一、准备工作</h3>
 <p>1.准备好两个Github库，分别为Hugo仓库(私有)和Github Pages仓库(公共)，Github Pages仓库创建需要以 *<strong>.github.io</strong> 命名(*为你的Github用户名)，如下图。
-<img loading="lazy" src="/assets/img/1/wh1.png" alt="仓库"  />
+<img loading="lazy" src="/assets/img/1/wh1.webp" alt="仓库"  />
 </p>
-<p>2.在 GitHub 账户下 <strong>Setting &gt; Developer setting &gt; Personal access tokens</strong> 下创建一个 Token，过期时间选<strong>No expiration</strong>，权限勾选<strong>repo</strong>和<strong>workflow</strong>，如下图。<img loading="lazy" src="/assets/img/1/wh2.png" alt="Tocken"  />
+<p>2.在 GitHub 账户下 <strong>Setting &gt; Developer setting &gt; Personal access tokens</strong> 下创建一个 Token，过期时间选<strong>No expiration</strong>，权限勾选<strong>repo</strong>和<strong>workflow</strong>，如下图。<img loading="lazy" src="/assets/img/1/wh2.webp" alt="Tocken"  />
 </p>
 <p>3.将本地博客文件Push到博客文件仓库，之后在Hugo仓库的 <strong>Settings &gt; Secrets and variables &gt; Actions</strong> 内点击<strong>New repository secret</strong>，依据下表填写。</p>
 <table>
@@ -53,11 +53,11 @@
 </tbody>
 </table>
 <p>填写后如下图。
-<img loading="lazy" src="/assets/img/1/wh3.png" alt="Secret"  />
+<img loading="lazy" src="/assets/img/1/wh3.webp" alt="Secret"  />
 </p>
 <h3 id="二部署github-actions">二、部署Github Actions</h3>
 <p>4.在Hugo仓库内创建目录 <strong>.github/workflows</strong> ，在该目录内创建 <strong>deploy.yml</strong>文件，如下图。
-<img loading="lazy" src="/assets/img/1/wh4.png" alt="deploy"  />
+<img loading="lazy" src="/assets/img/1/wh4.webp" alt="deploy"  />
 </p>
 <p>5.在 <strong>deploy.yml</strong> 文件内填写如下代码并根据提示修改。</p>
 <div class="highlight"><div class="chroma">
@@ -162,7 +162,7 @@
 </div>
 </div><h3 id="三部署结果">三、部署结果</h3>
 <p>6.修改完成 <strong>deploy.yml</strong> 后，Github Actions会自动运行并将Hugo生成在Public文件夹下的静态文件上传到Github Pages和虚拟主机内，如下图。
-<img loading="lazy" src="/assets/img/1/wh5.png" alt="workflow"  />
+<img loading="lazy" src="/assets/img/1/wh5.webp" alt="workflow"  />
 </p>
 <p>至此，利用Github Actions自动部署Hugo博客到Github Pages和虚拟主机就完成了！</p>
 ]]></content:encoded>

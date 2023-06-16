@@ -20,21 +20,21 @@
 <p>2.MT管理器</p>
 <h3 id="二重启后取消root">二、重启后取消ROOT</h3>
 <p>1.云手机内下载MT管理器并打开，打开MT管理器设置点击自定义su命令输入：<code>cph_su</code>之后在云手机内把MT管理器的后台清理掉再打开。
-<img loading="lazy" src="/assets/img/3/sj1.jpg" alt="cph_su"  />
+<img loading="lazy" src="/assets/img/3/sj1.webp" alt="cph_su"  />
 </p>
 <p>2.左右两边工具栏都在根目录下打开system文件夹，左边打开system文件夹下的bin文件夹，右边在system文件夹下创建xbin文件夹。
-<img loading="lazy" src="/assets/img/3/sj2.jpg" alt="dir1"  />
+<img loading="lazy" src="/assets/img/3/sj2.webp" alt="dir1"  />
 </p>
 <p>5.在左边工具栏(bin文件夹)下把cph_su文件复制到右边的xbin文件夹。
-<img loading="lazy" src="/assets/img/3/sj3.jpg" alt="dir2"  />
+<img loading="lazy" src="/assets/img/3/sj3.webp" alt="dir2"  />
 </p>
 <p>6.在右边工具栏(xbin文件夹)下把cph_su文件重命名为su。
-<img loading="lazy" src="/assets/img/3/sj4.jpg" alt="dir3"  />
+<img loading="lazy" src="/assets/img/3/sj4.webp" alt="dir3"  />
 </p>
 <p>此时已经获得ROOT，重启会关闭ROOT，再设置一遍就行了，但是如果需要重启保留ROOT，可以看第三部分。</p>
 <h3 id="三重启后保留root">三、重启后保留ROOT</h3>
 <p>打开system文件夹的下的bin文件夹，找到extend_root_func.sh文件，打开后点击编辑，将第7、8行注释掉(在代码前输入#)，之后保存，就可以重启不掉ROOT了。
-<img loading="lazy" src="/assets/img/3/sj5.jpg" alt="dir4"  />
+<img loading="lazy" src="/assets/img/3/sj5.webp" alt="dir4"  />
 </p>
 ]]></content:encoded>
     </item>

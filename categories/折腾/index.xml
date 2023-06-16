@@ -20,21 +20,21 @@
 <p>2.MT管理器</p>
 <h3 id="二重启后取消root">二、重启后取消ROOT</h3>
 <p>1.云手机内下载MT管理器并打开，打开MT管理器设置点击自定义su命令输入：<code>cph_su</code>之后在云手机内把MT管理器的后台清理掉再打开。
-<img loading="lazy" src="/assets/img/3/sj1.jpg" alt="cph_su"  />
+<img loading="lazy" src="/assets/img/3/sj1.webp" alt="cph_su"  />
 </p>
 <p>2.左右两边工具栏都在根目录下打开system文件夹，左边打开system文件夹下的bin文件夹，右边在system文件夹下创建xbin文件夹。
-<img loading="lazy" src="/assets/img/3/sj2.jpg" alt="dir1"  />
+<img loading="lazy" src="/assets/img/3/sj2.webp" alt="dir1"  />
 </p>
 <p>5.在左边工具栏(bin文件夹)下把cph_su文件复制到右边的xbin文件夹。
-<img loading="lazy" src="/assets/img/3/sj3.jpg" alt="dir2"  />
+<img loading="lazy" src="/assets/img/3/sj3.webp" alt="dir2"  />
 </p>
 <p>6.在右边工具栏(xbin文件夹)下把cph_su文件重命名为su。
-<img loading="lazy" src="/assets/img/3/sj4.jpg" alt="dir3"  />
+<img loading="lazy" src="/assets/img/3/sj4.webp" alt="dir3"  />
 </p>
 <p>此时已经获得ROOT，重启会关闭ROOT，再设置一遍就行了，但是如果需要重启保留ROOT，可以看第三部分。</p>
 <h3 id="三重启后保留root">三、重启后保留ROOT</h3>
 <p>打开system文件夹的下的bin文件夹，找到extend_root_func.sh文件，打开后点击编辑，将第7、8行注释掉(在代码前输入#)，之后保存，就可以重启不掉ROOT了。
-<img loading="lazy" src="/assets/img/3/sj5.jpg" alt="dir4"  />
+<img loading="lazy" src="/assets/img/3/sj5.webp" alt="dir4"  />
 </p>
 ]]></content:encoded>
     </item>
@@ -49,9 +49,9 @@
       <content:encoded><![CDATA[<p><strong>注意：本文仅记录使用Github Actions自动部署Hugo到Github Pages和虚拟主机上，不包含Hugo博客搭建（Hugo博客搭建的教程在网络上已经很多了）。</strong></p>
 <h3 id="一准备工作">一、准备工作</h3>
 <p>1.准备好两个Github库，分别为Hugo仓库(私有)和Github Pages仓库(公共)，Github Pages仓库创建需要以 *<strong>.github.io</strong> 命名(*为你的Github用户名)，如下图。
-<img loading="lazy" src="/assets/img/1/wh1.png" alt="仓库"  />
+<img loading="lazy" src="/assets/img/1/wh1.webp" alt="仓库"  />
 </p>
-<p>2.在 GitHub 账户下 <strong>Setting &gt; Developer setting &gt; Personal access tokens</strong> 下创建一个 Token，过期时间选<strong>No expiration</strong>，权限勾选<strong>repo</strong>和<strong>workflow</strong>，如下图。<img loading="lazy" src="/assets/img/1/wh2.png" alt="Tocken"  />
+<p>2.在 GitHub 账户下 <strong>Setting &gt; Developer setting &gt; Personal access tokens</strong> 下创建一个 Token，过期时间选<strong>No expiration</strong>，权限勾选<strong>repo</strong>和<strong>workflow</strong>，如下图。<img loading="lazy" src="/assets/img/1/wh2.webp" alt="Tocken"  />
 </p>
 <p>3.将本地博客文件Push到博客文件仓库，之后在Hugo仓库的 <strong>Settings &gt; Secrets and variables &gt; Actions</strong> 内点击<strong>New repository secret</strong>，依据下表填写。</p>
 <table>
@@ -85,11 +85,11 @@
 </tbody>
 </table>
 <p>填写后如下图。
-<img loading="lazy" src="/assets/img/1/wh3.png" alt="Secret"  />
+<img loading="lazy" src="/assets/img/1/wh3.webp" alt="Secret"  />
 </p>
 <h3 id="二部署github-actions">二、部署Github Actions</h3>
 <p>4.在Hugo仓库内创建目录 <strong>.github/workflows</strong> ，在该目录内创建 <strong>deploy.yml</strong>文件，如下图。
-<img loading="lazy" src="/assets/img/1/wh4.png" alt="deploy"  />
+<img loading="lazy" src="/assets/img/1/wh4.webp" alt="deploy"  />
 </p>
 <p>5.在 <strong>deploy.yml</strong> 文件内填写如下代码并根据提示修改。</p>
 <div class="highlight"><div class="chroma">
@@ -194,7 +194,7 @@
 </div>
 </div><h3 id="三部署结果">三、部署结果</h3>
 <p>6.修改完成 <strong>deploy.yml</strong> 后，Github Actions会自动运行并将Hugo生成在Public文件夹下的静态文件上传到Github Pages和虚拟主机内，如下图。
-<img loading="lazy" src="/assets/img/1/wh5.png" alt="workflow"  />
+<img loading="lazy" src="/assets/img/1/wh5.webp" alt="workflow"  />
 </p>
 <p>至此，利用Github Actions自动部署Hugo博客到Github Pages和虚拟主机就完成了！</p>
 ]]></content:encoded>

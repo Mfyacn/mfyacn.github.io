@@ -1,3 +1,6 @@
 User-agent: *
 Disallow:
 Sitemap: https://blog.mfya.cn/sitemap.xml
+Disallow: /tag/*
+Disallow:/categories/*
+Disallow:/search/
